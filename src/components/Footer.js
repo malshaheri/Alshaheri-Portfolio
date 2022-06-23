@@ -16,7 +16,7 @@ export default class Footer extends Component {
                       whileHover={{ scale: 1.5 }}
                       whileTap={{ scale: 0.9 }}
                     >
-                      <a href={item.url} target="_blank">
+                      <a href={item.url} target="_blank" rel="noreferrer">
                         <i className={item.className} />
                       </a>
                     </motion.li>
